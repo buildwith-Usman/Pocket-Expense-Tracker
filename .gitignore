@@ -1,0 +1,71 @@
+# ============================================================
+# Android .gitignore
+# ============================================================
+
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle build output
+/build/
+**/build/
+.gradle/
+**/.gradle/
+
+# Local configuration — never commit
+local.properties
+keystore.properties
+
+# Signing keys — NEVER commit these
+*.jks
+*.keystore
+key.properties
+
+# Firebase / Google Services — contains sensitive API keys
+google-services.json
+google-services.xml
+
+# IntelliJ / Android Studio
+*.iml
+**/*.iml
+.idea/
+/.idea/
+**/.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Native build
+.externalNativeBuild/
+**/.externalNativeBuild/
+.cxx/
+**/.cxx/
+
+# Captures (profiler, method traces)
+/captures/
+**/captures/
+
+# Android Profiler
+*.hprof
+
+# Test results
+/test-results/
+**/test-results/
+
+# Lint
+lint/
+*.lint
+
+# ProGuard mapping (keep for releases, optional for development)
+# /app/proguard-rule-files/
+
+# Kotlin
+.kotlin/
+
+# Dependency caches
+/.cachedir
